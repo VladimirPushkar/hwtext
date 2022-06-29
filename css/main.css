@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after { box-sizing:border-box; }
+a { text-decoration:none; color:inherit; cursor:pointer; }
+button { background-color:transparent; color:inherit; border-width:0; padding:0; cursor:pointer; }
+figure{ margin:0; }
+ul, ol, dd { margin:0; padding:0; list-style:none; }
+h1, h2, h3, h4, h5, h6 { margin:0; font-size:inherit; font-weight:inherit; }
+p { margin:0; }
+cite { font-style:normal; }
+fieldset { border-width:0; padding:0; margin:0; }
+
+@font-face {
+    font-family: "Smooch";
+    src: url("../fonts/Smooch.woff") format("woff"),
+        url("../fonts/Smooch.ttf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+   }
+
+.text-dec1 {
+    font-family: 'League Gothic', sans-serif;
+    background: #000;
+    color: rgb(255, 0, 0, 1);
+    text-shadow: 3px 2px 3px white;
+    font-size: 25px;
+    line-height: 2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-dec2 {
+    font-family: 'Trispace', sans-serif;
+    background: purple;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.text-dec3 {
+    font-family: 'Smooch';
+    background: brown;
+    color: white;
+    text-shadow: 2px 1px 2px silver;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
